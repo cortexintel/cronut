@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.19'
+ruby '2.1.2'
+
+gem 'rails', '~> 3.2.19'
 
 gem 'activerecord-postgresql-adapter'
 
@@ -25,4 +27,8 @@ group :development, :test do
   gem 'pry'
   gem 'sqlite3'
   gem 'timecop'
+end
+
+group :production do
+  gem 'rails_12factor'
 end
