@@ -1,1 +1,1 @@
-Rails.application.config.notification_from_email = ENV["CRONUT_MAILER_EMAIL"] || "cronut@harrys.com"
+MAILER_FROM_ADDRESS = ENV["CRONUT_MAILER_EMAIL"] || "cronut@harrys.com"
