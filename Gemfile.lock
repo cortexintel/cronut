@@ -36,6 +36,9 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    airbrake (4.3.1)
+      builder
+      multi_json
     arel (6.0.0)
     builder (3.2.2)
     clockwork (1.2.0)
@@ -105,6 +108,11 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.2)
       loofah (~> 2.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.4)
+    rails_stdout_logging (0.0.4)
     railties (4.2.2)
       actionpack (= 4.2.2)
       activesupport (= 4.2.2)
@@ -167,6 +175,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  airbrake
   clockwork
   coffee-rails (= 4.0.1)
   dotenv-rails
@@ -175,6 +184,7 @@ DEPENDENCIES
   pg (= 0.18.2)
   pry
   rails (= 4.2.2)
+  rails_12factor
   rspec-activemodel-mocks
   rspec-rails
   rufus-scheduler
