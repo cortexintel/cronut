@@ -2,6 +2,7 @@ Cronut::Application.routes.draw do
   resources :notifications
   resources :jobs
 
+  post 'deadman' => "deadman#ping"
   post 'ping/' => "jobs#ping"
 
   root to: 'jobs#index'
