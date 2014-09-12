@@ -6,6 +6,7 @@ gem 'rails', '~> 3.2.19'
 
 gem 'activerecord-postgresql-adapter'
 gem 'airbrake'
+gem 'pg'
 gem 'thin'
 
 # Gems used only for assets and not required
@@ -27,7 +28,6 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'rspec-activemodel-mocks'
   gem 'pry'
-  gem 'sqlite3'
   gem 'timecop'
 end
 
