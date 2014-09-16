@@ -12,7 +12,6 @@ gem 'rails', '4.2.2'
 gem 'pg', '= 0.18.2'
 
 gem 'airbrake'
-gem 'pg'
 gem 'thin'
 
 # Gems used only for assets and not required
